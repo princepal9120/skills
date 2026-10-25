@@ -25,19 +25,19 @@ Evidence: `[mm:ss]` + `[seen]` spoken in source, `[guessed]` inferred, `[unknown
 
 7. **Feedback MCP loop** [12:34] [seen]: Judge agent adoption by report → reply → root-cause → fix latency. Clear bugs (broken button, failed payment) auto-fix; ambiguous ("I'm confused") escalate to a human. Wire support/Sentry (and similar) via MCP [13:02] [seen].
 
-## When to load a segment
+## When to load a reference
 
 | Topic | File |
 | --- | --- |
-| Fresh-project MVP / anti-vibe testing | `segments/seg01-test-ideas-mvp.md` |
-| `/direction` command, scorecard, drift | `segments/seg02-direction-audit.md` |
-| Security scans, slop debt, quality gates | `segments/seg03-security-slop-debt.md` |
-| Must-not-trade-off + tests | `segments/seg04-must-not-trade-off.md` |
-| Breaker agent + copy-on-write data | `segments/seg05-breaker-agent.md` |
-| First-time-user hooks + error-free sessions | `segments/seg06-first-time-user.md` |
-| Support/Sentry MCP triage | `segments/seg07-feedback-mcp.md` |
+| Fresh-project MVP / anti-vibe testing | `references/mvp-testing.md` |
+| `/direction` command, scorecard, drift | `references/direction-audit.md` |
+| Security scans, slop debt, quality gates | `references/security-slop-debt.md` |
+| Must-not-trade-off + tests | `references/must-not-trade-off.md` |
+| Breaker agent + copy-on-write data | `references/breaker-agent.md` |
+| First-time-user hooks + error-free sessions | `references/first-time-user.md` |
+| Support/Sentry MCP triage | `references/feedback-mcp.md` |
 
-Also: `cheatsheet.md`, `patterns.md`, `glossary.md`, `timestamps.md`, `sources.md`.
+Also: `references/cheatsheet.md`, `references/patterns.md`, `references/glossary.md`, `references/timestamps.md`, `references/sources.md`.
 
 ## Agent defaults
 

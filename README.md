@@ -63,13 +63,8 @@ Every video-derived package should include:
 
 | File | Purpose |
 | --- | --- |
-| `SKILL.md` | YAML `name` + `description`; lean frameworks + topic index |
-| `segments/segNN-*.md` | Chapter deep-dives, loaded on demand |
-| `cheatsheet.md` | Fast decision rules |
-| `patterns.md` | Step-by-step techniques |
-| `glossary.md` | Terms with timestamp citations |
-| `timestamps.md` | Jump list back into the source |
-| `sources.md` | Source metadata and provenance |
+| `SKILL.md` | YAML `name` + `description`; always-on rules + topic index |
+| `references/*.md` | Topical depth loaded on demand |
 
 Claims in those packages carry `[mm:ss]` plus `[seen]`, `[guessed]`, or `[unknown]`.
 
@@ -79,14 +74,9 @@ Claims in those packages carry `[mm:ss]` plus `[seen]`, `[guessed]`, or `[unknow
 skills/
   my-skills/              # aggregator / router
     SKILL.md
-  vercel-ceo-skill/       # video-to-skill package
+  vercel-ceo-skill/       # class-level skill
     SKILL.md
-    segments/
-    cheatsheet.md
-    patterns.md
-    glossary.md
-    timestamps.md
-    sources.md
+    references/
 ```
 
 ## License
